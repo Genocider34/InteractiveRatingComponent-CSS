@@ -3,6 +3,7 @@
   --LightGrey: hsl(217, 12%, 63%);
   --MediumGrey: hsl(216, 12%, 54%);
   --container: hsl(213, 19%, 18%);
+  --buttonColor: hsl(210, 15%, 21%);
   --background: hsl(216, 12%, 8%);
   --Orange: hsl(25, 97%, 53%);
 }
@@ -32,7 +33,7 @@ main {
 }
 
 #icon {
-  background-color: var(--background);
+  background-color: var(--buttonColor);
   padding: 0.5rem 0.5rem;
   border-radius: 50%;
   margin-bottom: 1.7rem;
@@ -73,7 +74,7 @@ p {
   height: 3rem;
   border-radius: 50%;
   border: none;
-  background-color: var(--background);
+  background-color: var(--buttonColor);
 }
 
 .submit-button {
@@ -89,7 +90,7 @@ p {
   cursor: pointer;
 }
 
-.active-submit {
+.submit-button:hover {
   background-color: var(--White);
   color: var(--Orange);
 }
@@ -98,6 +99,7 @@ p {
   background-color: var(--Orange);
 }
 
+/* PAGE 2 */
 .thankyou-container {
   display: none;
   flex-direction: column;
